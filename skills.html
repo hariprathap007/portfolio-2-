@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hariprathap's technical skills — Frontend, programming, and core concepts.">
+    <title>Skills | Hariprathap Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+    <div class="scroll-progress"></div>
+    <div class="page-transition active"></div>
+    <div class="nav-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Hariprathap</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="assets/resume/Hariprathap_Resume.pdf" target="_blank" class="nav-resume-link">Resume</a>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+                <div class="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <p class="section-label">My Skills</p>
+            <h1>Technical <span>Skills</span></h1>
+            <p>Technologies, languages, and concepts I work with.</p>
+        </div>
+    </section>
+
+    <!-- Skills Content -->
+    <section class="section">
+        <div class="container">
+
+            <!-- SVG Gradient Definition -->
+            <svg width="0" height="0" style="position:absolute;">
+                <defs>
+                    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#00d4ff" />
+                        <stop offset="50%" stop-color="#a855f7" />
+                        <stop offset="100%" stop-color="#f472b6" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+            <!-- Frontend -->
+            <div class="skills-category reveal">
+                <h3>⚡ Frontend Development</h3>
+                <div class="skills-detailed-grid stagger">
+                    <div class="glass-card skill-detail-card">
+                        <div class="skill-icon-large">🌐</div>
+                        <div class="skill-progress" data-percent="85">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="progress-value">85%</span>
+                        </div>
+                        <h4>HTML5</h4>
+                        <p style="color:var(--text-secondary);font-size:0.85rem;">Semantic markup & accessibility</p>
+                    </div>
+                    <div class="glass-card skill-detail-card">
+                        <div class="skill-icon-large">🎨</div>
+                        <div class="skill-progress" data-percent="80">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="progress-value">80%</span>
+                        </div>
+                        <h4>CSS3</h4>
+                        <p style="color:var(--text-secondary);font-size:0.85rem;">Flexbox, Grid, animations</p>
+                    </div>
+                    <div class="glass-card skill-detail-card">
+                        <div class="skill-icon-large">✨</div>
+                        <div class="skill-progress" data-percent="75">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="progress-value">75%</span>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <p style="color:var(--text-secondary);font-size:0.85rem;">DOM, events, async/await</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming -->
+            <div class="skills-category reveal">
+                <h3>☕ Programming Languages</h3>
+                <div class="skills-detailed-grid stagger">
+                    <div class="glass-card skill-detail-card">
+                        <div class="skill-icon-large">☕</div>
+                        <div class="skill-progress" data-percent="70">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="progress-value">70%</span>
+                        </div>
+                        <h4>Java</h4>
+                        <p style="color:var(--text-secondary);font-size:0.85rem;">OOP, collections, file I/O</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Concepts -->
+            <div class="skills-category reveal">
+                <h3>🧠 Core Concepts</h3>
+                <div class="skills-detailed-grid stagger">
+                    <div class="glass-card skill-detail-card">
+                        <div class="skill-icon-large">📊</div>
+                        <div class="skill-progress" data-percent="65">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="progress-value">65%</span>
+                        </div>
+                        <h4>Data Structures</h4>
+                        <p style="color:var(--text-secondary);font-size:0.85rem;">Arrays, linked lists, stacks, queues
+                        </p>
+                    </div>
+                    <div class="glass-card skill-detail-card">
+                        <div class="skill-icon-large">🧩</div>
+                        <div class="skill-progress" data-percent="70">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="progress-value">70%</span>
+                        </div>
+                        <h4>Problem Solving</h4>
+                        <p style="color:var(--text-secondary);font-size:0.85rem;">Logical thinking & algorithms</p>
+                    </div>
+                    <div class="glass-card skill-detail-card">
+                        <div class="skill-icon-large">💡</div>
+                        <div class="skill-progress" data-percent="75">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <span class="progress-value">75%</span>
+                        </div>
+                        <h4>Programming Fundamentals</h4>
+                        <p style="color:var(--text-secondary);font-size:0.85rem;">Variables, loops, functions, OOP</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">Hariprathap</a>
+                    <p>Aspiring software developer passionate about web technologies and building meaningful digital
+                        experiences.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/hariprathap007" target="_blank" class="social-link"
+                            aria-label="GitHub">GH</a>
+                        <a href="https://www.linkedin.com/in/hari-prathap-81699b2a1/" target="_blank"
+                            class="social-link" aria-label="LinkedIn">LI</a>
+                        <a href="mailto:hariprathap4031@gmail.com" class="social-link" aria-label="Email">✉</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://github.com/hariprathap007" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/hari-prathap-81699b2a1/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li><a href="mailto:hariprathap4031@gmail.com">Email</a></li>
+                        <li><a href="assets/resume/Hariprathap_Resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hariprathap. All rights reserved.</p>
+                <p>Designed &amp; built with 💙</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
